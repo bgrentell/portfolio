@@ -57,6 +57,12 @@ main a {
   text-align: center;
 }
 
+footer {
+  color: white;
+  margin-top: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   color: white;
   font-family: "Zen Dots", Helvetica, sans-serif;
