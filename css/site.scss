@@ -1,9 +1,9 @@
 $background: #010118;
 $main-font: "Zen Dots", Helvetica, sans-serif;
 $color: white;
-$name-color: #989898;
+$name-color: #efeeee;
 $name-font: "Parisienne", cursive;
-
+$button-color: gray;
 * {
     margin: 0;
 }
@@ -32,6 +32,41 @@ header {
 main {
     width: 100%;
     padding-top: 2em;
+    
+    img {
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        right: 0.5em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        object-fit: cover;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 275px;
+    }
+
+    p {
+        color: $color;
+        font-size: x-small;
+        font-family: $main-font;
+        margin-bottom: 20px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        background: $button-color;
+        width: 15em;
+        height: 3em;
+        line-height: 3em;
+        text-align: center;
+    }
+
 }
 
 h1 {

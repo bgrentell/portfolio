@@ -18,13 +18,43 @@ header {
   width: 100%;
 }
 header span {
-  color: #989898;
+  color: #efeeee;
   font-family: "Parisienne", cursive;
 }
 
 main {
   width: 100%;
   padding-top: 2em;
+}
+main img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  right: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  object-fit: cover;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 275px;
+}
+main p {
+  color: white;
+  font-size: x-small;
+  font-family: "Zen Dots", Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+main a {
+  text-decoration: none;
+  color: black;
+  background: gray;
+  width: 15em;
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
 }
 
 h1 {
