@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #010118;
+  padding: 0.5em;
+}
+
+header {
+  color: white;
+  font-size: 0.5em;
+  font-family: "Zen Dots", Helvetica, sans-serif;
+  width: 100%;
+}
+header span {
+  color: #989898;
+  font-family: "Parisienne", cursive;
+}
+
+main {
+  width: 100%;
+  padding-top: 2em;
+}
+
+h1 {
+  color: white;
+  font-family: "Zen Dots", Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+nav {
+  margin-top: 0.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.my-name {
+  font-family: "Parisienne", cursive;
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=site.css.map */

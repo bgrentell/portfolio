@@ -1,0 +1,58 @@
+$background: #010118;
+$main-font: "Zen Dots", Helvetica, sans-serif;
+$color: white;
+$name-color: #989898;
+$name-font: "Parisienne", cursive;
+
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $background;
+    padding: 0.5em;
+}
+
+header {
+    color: $color;
+    font-size: 0.50em;
+    font-family: $main-font;
+    width: 100%;
+
+    span {
+        color: $name-color;
+        font-family: $name-font;
+    }
+}
+
+main {
+    width: 100%;
+    padding-top: 2em;
+}
+
+h1 {
+    color: $color;
+    font-family: $main-font;
+    font-size: 1em;
+}
+
+nav {
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    a {
+        text-decoration: none;
+        color: $color;
+    }
+}
+
+.my-name {
+    font-family: $name-font;
+    font-size: 1.5em;
+}
