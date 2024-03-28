@@ -28,6 +28,14 @@ header {
         color: $name-color;
         font-family: $name-font;
     }
+
+    a {
+        transition: 0.25s ease-in;
+    }
+
+    a:hover {
+        color: yellow;
+    }
 }
 
 main {

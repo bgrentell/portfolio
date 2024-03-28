@@ -21,6 +21,12 @@ header p {
   color: #efeeee;
   font-family: "Parisienne", cursive;
 }
+header a {
+  transition: 0.25s ease-in;
+}
+header a:hover {
+  color: yellow;
+}
 
 main {
   width: 100%;
