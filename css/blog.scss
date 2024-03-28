@@ -3,7 +3,7 @@ section {
     a {
         width: 100%;
         section {
-            width: 300px;
+            width: 18em;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -12,6 +12,7 @@ section {
             margin-top: 1.5em;
             background-color: blue;
             border-radius: 1.0em;
+            transition: 0.5s ease-in-out;
             img {
                 width: 12em;
                 height: 5em;
@@ -27,8 +28,14 @@ section {
                 text-align: center;
                 margin-top: 0.5em;
             }
+    
+            &:hover {
+                width: 19em;
+                border-radius: 0%;
+            }
         }
     }
+
 }
 
 .blog-header {

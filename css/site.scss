@@ -9,6 +9,10 @@ $button-color: gray;
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -116,6 +120,11 @@ main {
         margin-left: auto;
         margin-right: auto;
         font-family: $arial;
+        transition: 0.25s ease-in;
+
+        &:hover {
+            background: yellow;
+        }
     }
 
 }
@@ -140,7 +149,6 @@ nav {
     justify-content: space-between;
     
     a {
-        text-decoration: none;
         color: $color;
     }
 }
@@ -153,6 +161,11 @@ h3 {
     width: 100%;
     text-indent: 1.0em;
     margin: 0.5em;
+    transition: 0.25s ease-in;
+
+    &:hover {
+        color: yellow;
+    }
 }
 
 h2 {
@@ -177,6 +190,11 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     font-family: $arial;
+    transition: 0.25s ease-in;
+
+    &:hover {
+        background: yellow;
+    }
 }
 
 

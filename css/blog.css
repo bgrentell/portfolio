@@ -2,7 +2,7 @@ section a {
   width: 100%;
 }
 section a section {
-  width: 300px;
+  width: 18em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,6 +11,7 @@ section a section {
   margin-top: 1.5em;
   background-color: blue;
   border-radius: 1em;
+  transition: 0.5s ease-in-out;
 }
 section a section img {
   width: 12em;
@@ -26,6 +27,10 @@ section a section p {
   width: 100%;
   text-align: center;
   margin-top: 0.5em;
+}
+section a section:hover {
+  width: 19em;
+  border-radius: 0%;
 }
 
 .blog-header .blog-caption {

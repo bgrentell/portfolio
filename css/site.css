@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -100,6 +104,10 @@ main .contact {
   margin-left: auto;
   margin-right: auto;
   font-family: Arial, Helvetica, sans-serif;
+  transition: 0.25s ease-in;
+}
+main .contact:hover {
+  background: yellow;
 }
 
 footer {
@@ -122,7 +130,6 @@ nav {
   justify-content: space-between;
 }
 nav a {
-  text-decoration: none;
   color: white;
 }
 
@@ -133,6 +140,10 @@ h3 {
   width: 100%;
   text-indent: 1em;
   margin: 0.5em;
+  transition: 0.25s ease-in;
+}
+h3:hover {
+  color: yellow;
 }
 
 h2 {
@@ -157,6 +168,10 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   font-family: Arial, Helvetica, sans-serif;
+  transition: 0.25s ease-in;
+}
+.email-me:hover {
+  background: yellow;
 }
 
 .my-name {
