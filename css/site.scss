@@ -24,7 +24,7 @@ header {
     font-family: $main-font;
     width: 100%;
 
-    span {
+    p {
         color: $name-color;
         font-family: $name-font;
     }
@@ -96,7 +96,7 @@ main {
         width: 100%;
     }
 
-    a {
+    .contact {
         text-decoration: none;
         color: black;
         background: $button-color;
@@ -137,10 +137,6 @@ nav {
     }
 }
 
-.my-name {
-    font-family: $name-font;
-    font-size: 1.5em;
-}
 
 h3 {
     color: $color;
@@ -165,4 +161,18 @@ h2 {
     width:10em;
     height: 2.5em;
     line-height: 2.5em;
+    text-decoration: none;
+    color: black;
+    background: $button-color;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: $arial;
+}
+
+
+.my-name {
+    font-family: $name-font;
+    font-size: 1.5em;
 }

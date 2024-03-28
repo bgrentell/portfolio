@@ -17,7 +17,7 @@ header {
   font-family: "Zen Dots", Helvetica, sans-serif;
   width: 100%;
 }
-header span {
+header p {
   color: #efeeee;
   font-family: "Parisienne", cursive;
 }
@@ -82,7 +82,7 @@ main p {
   margin-bottom: 20px;
   width: 100%;
 }
-main a {
+main .contact {
   text-decoration: none;
   color: black;
   background: gray;
@@ -120,11 +120,6 @@ nav a {
   color: white;
 }
 
-.my-name {
-  font-family: "Parisienne", cursive;
-  font-size: 1.5em;
-}
-
 h3 {
   color: white;
   font-family: "Zen Dots", Helvetica, sans-serif;
@@ -148,6 +143,19 @@ h2 {
   width: 10em;
   height: 2.5em;
   line-height: 2.5em;
+  text-decoration: none;
+  color: black;
+  background: gray;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.my-name {
+  font-family: "Parisienne", cursive;
+  font-size: 1.5em;
 }
 
 /*# sourceMappingURL=site.css.map */
