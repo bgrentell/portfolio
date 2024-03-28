@@ -22,6 +22,7 @@ section a section img {
 }
 section a section h2 {
   margin-top: 1em;
+  transition: 1s ease-in;
 }
 section a section p {
   width: 100%;
@@ -31,6 +32,10 @@ section a section p {
 section a section:hover {
   width: 19em;
   border-radius: 0%;
+}
+section a section:hover h2 {
+  transition: none;
+  color: yellow;
 }
 
 .blog-header .blog-caption {
