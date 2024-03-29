@@ -179,4 +179,20 @@ h2 {
   font-size: 1.5em;
 }
 
+@media screen and (min-width: 600px) {
+  header, body, footer {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .column-layout {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .column-layout section {
+    max-width: 50%;
+    display: inline-block;
+  }
+}
+
 /*# sourceMappingURL=site.css.map */
