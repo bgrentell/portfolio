@@ -30,7 +30,7 @@ section a section p {
   margin-top: 0.5em;
 }
 section a section:hover {
-  width: 19em;
+  width: 17em;
   border-radius: 0%;
 }
 section a section:hover h2 {
@@ -41,6 +41,7 @@ section a section:hover h2 {
 .blog-header .blog-caption {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .blog-header .blog-caption img {
   width: 2.5em;
@@ -48,6 +49,9 @@ section a section:hover h2 {
   border-radius: 50%;
 }
 
+.blog {
+  margin-top: 2em;
+}
 .blog img {
   width: 12em;
   height: 5em;

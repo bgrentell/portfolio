@@ -34,7 +34,7 @@ section {
             }
     
             &:hover {
-                width: 19em;
+                width: 17em;
                 border-radius: 0%;
 
                 h2 {
@@ -53,6 +53,7 @@ section {
     .blog-caption {
             display:flex;
             flex-direction: row;
+            justify-content: space-between;
 
             img {
             width: 2.5em;
@@ -63,6 +64,7 @@ section {
 }
 
 .blog {
+    margin-top: 2em;
     img {
         width: 12em;
         height: 5em;
@@ -76,6 +78,7 @@ section {
 }
 
 @media screen and (min-width: 600px) {
+
     .column-layout-blog {
         display: flex;
         flex-direction: row;
